@@ -1,5 +1,5 @@
 #include <stdio.h>
-void *memcpy(void *dest, const void *src, size_t count){
+void *ft_memcpy(void *dest, const void *src, size_t count){
     unsigned char *p;
     const unsigned char *s;
     size_t i=0;
