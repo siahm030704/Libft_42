@@ -1,14 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                       :::      ::::::::    */
+/*   ft_strlen.c                                       :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/12 18:51:19 by username         #+#    #+#              */
+/*   Updated: 2026/10/12 18:51:37 by username        ###   ########.fr        */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdio.h>
+
 size_t	ft_strlen(const char *str)
 {
-	int i = 0;
-	while(str[i] != '\0')
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
 		i++;
 	return (i);
 }
-int main()
-{
-	char s[]="sihamahmad";
-	printf("%d\n",ft_strlen(s));
-}
-

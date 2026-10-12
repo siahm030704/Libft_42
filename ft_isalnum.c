@@ -1,16 +1,19 @@
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                       :::      ::::::::    */
+/*   ft_isalnum.c                                      :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/12 18:55:22 by username         #+#    #+#              */
+/*   Updated: 2026/10/12 19:00:36 by username        ###   ########.fr        */
+/*                                                                            */
+/* ************************************************************************** */
 
-int ft_isalnum (char c){
-    if ((c >= '0' && c <='9') || ((c >= 'a' && c <='z') || (c >= 'A' && c <='Z')))
-      return(1);
-    return(0);
-}
-
-int main(void)
+int	ft_isalnum(char c)
 {
-    printf("%d\n", ft_isalnum('A'));
-    printf("%d\n",ft_isalnum('0'));
-    printf("%d\n", ft_isalnum('6'));
-    printf("%d\n", ft_isalnum('@'));
-    return (0);
+	if ((c >= '0' && c <= '9') || ((c >= 'a' && c <= 'z')
+				|| (c >= 'A' && c <= 'Z')))
+	return (1);
+	return (0);
 }
