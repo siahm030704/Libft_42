@@ -5,28 +5,30 @@
 /*                                                   +:+ +:+         +:+      */
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
-/*   Created: 2026/10/13 20:02:04 by username         #+#    #+#              */
-/*   Updated: 2026/10/13 22:22:02 by username        ###   ########.fr        */
+/*   Created: 2026/10/13 22:28:28 by username         #+#    #+#              */
+/*   Updated: 2026/10/13 22:28:28 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
-	size_t	p;
+	size_t	j;
 
-	i = 0;
-	p = NULL;
-	if (little[0])
+	if (little[0] == '\0')
 		return ((char *) big);
-	while (i < n && big[i])
+	i = 0;
+	while (big[i] && i < len)
 	{
-		p = 0;
-		while ((big[i + p] && little[p]) && (i + p < n
-					&& big[i + p] == little[p]))
-		p++;
-		f(!little[p])
-		return ((char *)(big + i));
+		j = 0;
+		while (little[j] && i + j < len
+				&& big[i + j] == little[j])
+		j++;
+		if (little[j] == '\0')
+			return ((char *)(big + i));
+		i++;
 	}
 	return (NULL);
 }
