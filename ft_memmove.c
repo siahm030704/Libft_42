@@ -6,30 +6,33 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:48:24 by username         #+#    #+#              */
-/*   Updated: 2026/10/13 19:22:33 by username        ###   ########.fr        */
+/*   Updated: 2026/10/13 19:41:28 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-
-void	*ft_memmove(void *dest, const void *src, size_t n)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	unsigned char		*d;
-	const unsigned char	*s;
-	size_t				i;
+	size_t	i;
 
-	d = (unsigned char *) dest;
-	s = (const unsigned char *) src;
-	i = 0;
-	if (d > s)
-		while (n-- > 0)
-		d[n] = s[n];
-	else
-		while (i < n)
+	if (len == 0 || dst == src)
+		return (dst);
+	if (dst > src)
+	{
+		i = len;
+		while (i > 0)
 		{
-			d[i] = s[i];
+			i--;
+			((char *) dst)[i] = ((char *) src)[i];
+		}
+	}
+	else
+	{
+		i = 0;
+		while (i < len)
+		{
+			((char *) dst)[i] = ((char *) src)[i];
 			i++;
 		}
-	return (dest);
+	}
+	return (dst);
 }
