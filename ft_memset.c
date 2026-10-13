@@ -6,7 +6,7 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:50:48 by username         #+#    #+#              */
-/*   Updated: 2026/10/12 18:51:01 by username        ###   ########.fr        */
+/*   Updated: 2026/10/13 19:24:27 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memset(void *ptr, int value, size_t num)
 	p = (unsigned char *) ptr;
 	while (i < num)
 	{
-		p[i] = value;
+		p[i] = (unsigned char) value;
 		i++;
 	}
 	return (ptr);

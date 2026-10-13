@@ -6,7 +6,7 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:47:35 by username         #+#    #+#              */
-/*   Updated: 2026/10/12 18:47:54 by username        ###   ########.fr        */
+/*   Updated: 2026/10/13 19:17:56 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_memcmp(const void *L, const void *R, size_t count)
 {
-	unsigned char	*s1;
-	unsigned char	*s2;
-	size_t			i;
+	const unsigned char	*s1;
+	const unsigned char	*s2;
+	size_t				i;
 
 	i = 0;
 	s1 = (const unsigned char *) L;
