@@ -6,22 +6,20 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:51:07 by username         #+#    #+#              */
-/*   Updated: 2026/10/13 19:27:46 by username        ###   ########.fr        */
+/*   Updated: 2026/10/13 19:45:48 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strchr(const char *str, int c)
+char	*ft_strchr(const char *s, int c)
 {
 	int	i;
 
 	i = 0;
-	while (str[i])
+	while (s[i] != c)
 	{
-		if (str[i] == (unsigned char) c)
-			return ((char *) & str[i]);
+		if (s[i] == '\0')
+			return (NULL);
 		i++;
 	}
-	if (c == '\0')
-		return ((char *) & str[i]);
-	return (NULL);
+	return ((char *) s + i);
 }
