@@ -6,11 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:43:31 by username         #+#    #+#              */
-/*   Updated: 2026/10/13 19:13:36 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:56:15 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include <libft.h>
 
 int	ft_atoi(const char *s)
 {

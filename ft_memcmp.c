@@ -6,11 +6,9 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:47:35 by username         #+#    #+#              */
-/*   Updated: 2026/10/13 19:17:56 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:33:01 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_memcmp(const void *L, const void *R, size_t count)
 {

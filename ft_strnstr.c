@@ -5,8 +5,8 @@
 /*                                                   +:+ +:+         +:+      */
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
-/*   Created: 2026/10/13 22:28:28 by username         #+#    #+#              */
-/*   Updated: 2026/10/21 17:43:01 by username        ###   ########.fr        */
+/*   Created: 2026/10/26 18:50:07 by username         #+#    #+#              */
+/*   Updated: 2026/10/26 18:51:01 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,11 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	while (big[i] && i < len)
 	{
 		j = 0;
-		while ((big[i + j] && little[j]) && (i + j < len && big[i + j]
-					== little[j]))
-		j++;
+		while (i + j < len && big[i + j] == little[j]
+				&& little[j] != '\0')
+		{
+			j++;
+		}
 		if (little[j] == '\0')
 			return ((char *)(big + i));
 		i++;
