@@ -6,7 +6,7 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/13 19:49:05 by username         #+#    #+#              */
-/*   Updated: 2026/10/13 19:59:36 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:15:33 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		dst[y + i] = src[i];
 		i++;
 	}
-	dst[i + y] = '\0';
+	dst[y + i] = '\0';
 	return (src_len + y);
 }
