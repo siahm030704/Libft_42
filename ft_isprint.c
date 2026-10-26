@@ -6,11 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:46:58 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:57:33 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 20:40:21 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 int	ft_isprint(int c)
 {

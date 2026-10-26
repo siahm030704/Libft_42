@@ -6,11 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/13 19:49:05 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:58:37 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 20:41:52 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {

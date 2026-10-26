@@ -6,11 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:48:05 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:57:47 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 20:40:45 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t count)
 {

@@ -6,11 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:51:42 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:58:49 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 20:42:13 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

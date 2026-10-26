@@ -6,11 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/26 18:50:07 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:58:54 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 20:49:09 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
@@ -24,7 +24,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	{
 		j = 0;
 		while (i + j < len && big[i + j] == little[j]
-				&& little[j] != '\0')
+			&& little[j] != '\0')
 		{
 			j++;
 		}
