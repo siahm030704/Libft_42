@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:47:02 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:32:38 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:57:41 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 void	*ft_memchr(const void *ptr, int ch, size_t n)
 {

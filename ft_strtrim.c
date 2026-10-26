@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/18 16:30:56 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:46:20 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:59:01 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 char	*ft_strtrim(char const *s1, char const *set)
 {

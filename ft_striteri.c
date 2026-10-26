@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/21 17:37:57 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:50 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:58:29 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {

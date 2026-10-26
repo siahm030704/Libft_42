@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/18 16:17:22 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:52 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:58:32 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

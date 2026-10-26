@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/15 00:17:08 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:01 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:57:14 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

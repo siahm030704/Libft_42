@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:46:49 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:12 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:57:29 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 int	ft_isdigit(int c)
 {

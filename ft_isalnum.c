@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:55:22 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:04 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:57:17 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 int	ft_isalnum(int c)
 {

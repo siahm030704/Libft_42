@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/26 18:50:07 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:51:01 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:58:54 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {

@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/18 16:05:33 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:44:00 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:59:05 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

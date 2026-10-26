@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:50:48 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:29 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:58:00 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 void	*ft_memset(void *ptr, int value, size_t num)
 {

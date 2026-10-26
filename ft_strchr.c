@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:51:07 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:43 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:58:20 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 char	*ft_strchr(const char *s, int c)
 {

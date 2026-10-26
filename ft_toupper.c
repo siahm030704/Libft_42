@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:51:57 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:44:09 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:59:21 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 int	ft_toupper(int c)
 {

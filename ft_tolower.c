@@ -6,11 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 18:51:53 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:44:04 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:59:17 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include <libft.h>
 
 int	ft_tolower(int c)
 {

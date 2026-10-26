@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/18 17:09:49 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:34 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:58:08 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 void	ft_putendl_fd(char *s, int fd)
 {

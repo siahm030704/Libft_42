@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/18 16:50:55 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:40:15 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:57:36 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 static size_t	ft_numlen(long n)
 {

@@ -6,9 +6,11 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/18 17:03:24 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 18:41:14 by username        ###   ########.fr        */
+/*   Updated: 2026/10/26 18:58:46 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <libft.h>
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
