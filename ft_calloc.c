@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                       :::      ::::::::    */
-/*   ft_calloc.c                                       :+:      :+:    :+:    */
-/*                                                   +:+ +:+         +:+      */
-/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
-/*                                               +#+#+#+#+#+   +#+            */
-/*   Created: 2026/10/15 00:17:08 by username         #+#    #+#              */
-/*   Updated: 2026/10/26 20:39:49 by username        ###   ########.fr        */
+/*                                                        :::      ::::::::   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/15 00:17:08 by username          #+#    #+#             */
+/*   Updated: 2026/10/27 13:03:55 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	unsigned char	*n;
 	size_t			i;
 
+	if (size != 0 && nmemb > __SIZE_MAX__ / size)
+		return (NULL);
 	if (nmemb == 0 || size == 0)
 	{
 		n = malloc(1);
