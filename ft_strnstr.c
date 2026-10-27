@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 18:50:07 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:49:43 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/27 17:00:19 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	{
 		j = 0;
 		while (i + j < len && big[i + j] == little[j]
-				&& little[j] != '\0')
+			&& little[j] != '\0')
 		{
 			j++;
 		}
