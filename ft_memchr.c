@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memchr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 18:47:02 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:15 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_memchr.c                                       :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/12 18:47:02 by username         #+#    #+#              */
+/*   Updated: 2026/10/28 06:58:41 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,13 @@ void	*ft_memchr(const void *ptr, int ch, size_t n)
 	}
 	return (NULL);
 }
+/*
+int	main(void)
+{
+char	str[] = "Hello, world!";
+char	ch = 'e';
+
+printf("Original string: %s\n", str);
+printf("ft_memchr: %p\n", ft_memchr(str, ch, strlen(str)));
+return (0);
+}*/

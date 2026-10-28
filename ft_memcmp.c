@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 18:47:35 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:18 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_memcmp.c                                       :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/12 18:47:35 by username         #+#    #+#              */
+/*   Updated: 2026/10/28 07:04:46 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,14 @@ int	ft_memcmp(const void *L, const void *R, size_t count)
 	}
 	return (0);
 }
+/*
+int	main(void)
+{
+const char	*str1 = "Aello, world!";
+const char	*str2 = "aello, world!";
+size_t		n = 13;
+int			result = ft_memcmp(str1, str2, n);
+
+printf("%d\n", result);
+return (0);
+}*/

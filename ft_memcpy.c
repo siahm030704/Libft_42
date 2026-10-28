@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 18:48:05 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:21 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_memcpy.c                                       :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/12 18:48:05 by username         #+#    #+#              */
+/*   Updated: 2026/10/28 07:14:37 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,14 @@ void	*ft_memcpy(void *dest, const void *src, size_t count)
 	}
 	return (dest);
 }
+/*
+int	main(void)
+{
+char		dest[20];
+const char	*src = "Hello, world!";
+size_t		n = 5;
+
+ft_memcpy(dest, src, n);
+printf("%s\n", dest);
+return (0);
+}*/
