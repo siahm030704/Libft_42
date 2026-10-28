@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 17:08:22 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:35 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/28 12:47:01 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,11 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
+/*int main(void)
+{
+	char	*str = "Hello, world!";
+	int		fd = 1; 
+
+	ft_putstr_fd(str, fd);
+	return (0);
+}*/

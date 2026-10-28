@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 17:09:49 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:31 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/28 12:36:31 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,12 @@ void	ft_putendl_fd(char *s, int fd)
 		write(fd, s++, 1);
 	write(fd, "\n", 1);
 }
+/*
+int main(void)
+{
+	char	*str = "Hello, world!";
+	int		fd = 1; 
+
+	ft_putendl_fd(str, fd);
+	return (0);
+}*/

@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 18:50:48 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:26 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/28 12:26:11 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,15 @@ void	*ft_memset(void *ptr, int value, size_t num)
 	}
 	return (ptr);
 }
+/*
+int main(void)
+{
+	
+
+	char	src[] = "Hello, world!";
+	size_t		n = 4;
+
+	ft_memset(src, '*', n);
+	printf("%s\n", src);
+	return (0);
+}*/

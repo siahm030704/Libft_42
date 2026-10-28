@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 17:37:57 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:43 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/28 14:22:32 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,8 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-/*void	*upper(unsigned int i, char *s)
+/*
+void	*upper(unsigned int i, char *s)
 {
 while (s[i])
 {
@@ -34,4 +35,11 @@ s[i] -= 32;
 i++;
 }
 return (s);
+}
+int main(void)
+{
+char str[] = "Hello, World!";
+ft_striteri(str, upper);
+printf("%s\n", str);						
+return (0);
 }*/

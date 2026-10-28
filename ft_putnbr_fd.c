@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 17:12:30 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:33 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/28 12:45:51 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,11 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_char((nb % 10) + '0', fd);
 	}
 }
+// int main(void)
+// {
+// 	int		n = -12345;
+// 	int		fd = 1; 
+
+// 	ft_putnbr_fd(n, fd);
+// 	return (0);
+// }

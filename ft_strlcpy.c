@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 18:51:13 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:51 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/28 16:56:26 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,16 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		i++;
 	return (i);
 }
+/*
+int main(void)
+{
+	char		dest[20] = "";
+	const char	*src = "Hello, world!";
+	size_t		size = 0;
+	size_t		result;
+
+	result = ft_strlcpy(dest, src, size);
+	printf("Result: %zu\n", result);
+	printf("Destination: %s\n", dest);
+	return (0);
+}*/
