@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strtrim.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/18 16:30:56 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:49:50 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_strtrim.c                                      :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/18 16:30:56 by username         #+#    #+#              */
+/*   Updated: 2026/10/29 00:01:21 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,4 +33,23 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (NULL);
 	ft_strlcpy(trimmed_str, s1 + start, len + 1);
 	return (trimmed_str);
+}
+
+int	main(void)
+{
+	const char	*s1 = "  Hello, World!  ";
+	const char	*set = " ";
+	char		*trimmed_str;
+
+	trimmed_str = ft_strtrim(s1, set);
+	if (trimmed_str)
+	{
+		printf("Trimmed string: '%s'\n", trimmed_str);
+		free(trimmed_str);
+	}
+	else
+	{
+		printf("Memory allocation failed.\n");
+	}
+	return (0);
 }

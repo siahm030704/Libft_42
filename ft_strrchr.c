@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 18:51:48 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:49:48 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_strrchr.c                                      :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/12 18:51:48 by username         #+#    #+#              */
+/*   Updated: 2026/10/28 23:20:58 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,12 @@ char	*ft_strrchr(const char *str, int c)
 		return ((char *) & str[i]);
 	return (find);
 }
+/*
+int	main(void)
+{
+const char	*str = "Hello, warld!";
+int			c = 'z';
+
+printf("%s\n", ft_strrchr(str, c));
+return (0);
+}*/

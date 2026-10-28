@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strnstr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/26 18:50:07 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 17:00:19 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_strnstr.c                                      :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/26 18:50:07 by username         #+#    #+#              */
+/*   Updated: 2026/10/28 22:43:24 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	{
 		j = 0;
 		while (i + j < len && big[i + j] == little[j]
-			&& little[j] != '\0')
+				&& little[j] != '\0')
 		{
 			j++;
 		}
@@ -34,3 +34,13 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+/*
+int	main(void)
+{
+const char	*big = "Hello, world!";
+const char	*little = "";
+size_t		len = 12;
+
+printf("Result: %s\n", ft_strnstr(big, little, len));
+return (0);
+}*/

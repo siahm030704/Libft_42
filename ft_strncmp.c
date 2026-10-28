@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 18:51:42 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:47:57 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_strncmp.c                                      :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/12 18:51:42 by username         #+#    #+#              */
+/*   Updated: 2026/10/28 22:33:18 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,14 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
+/*
+int	main(void)
+{
+char	*s1 = "aiham";
+char	*s2 = "Siham";
+size_t	n = 5;
+int		result = ft_strncmp(s1, s2, n);
+
+printf("Result: %d\n", result);
+return (0);
+}*/

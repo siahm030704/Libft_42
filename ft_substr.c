@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/18 16:05:33 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 12:49:52 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_substr.c                                       :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/18 16:05:33 by username         #+#    #+#              */
+/*   Updated: 2026/10/28 23:40:19 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,12 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	rtn[i] = '\0';
 	return (rtn);
 }
+/*
+int	main(void)
+{
+const char		*s = "Siham";
+unsigned int	start = 7;
+size_t			len = 2;
+
+printf("Result: %s\n", ft_substr(s, start, len));
+}*/
