@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/15 00:17:08 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 13:03:55 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_calloc.c                                       :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/15 00:17:08 by username         #+#    #+#              */
+/*   Updated: 2026/10/29 01:15:31 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,12 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	}
 	return (n);
 }
+/*
+int	main(void)
+{
+size_t	nmemb = 5;
+size_t	size = sizeof(int);
+
+printf("%p ", ft_calloc(nmemb, size));
+return (0);
+}*/
