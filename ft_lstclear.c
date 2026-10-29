@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 15:24:49 by username          #+#    #+#             */
-/*   Updated: 2026/10/29 14:04:01 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:40:54 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,15 @@
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
-	t_list	*current;
-	t_list	*next;
+	t_list	*tmp_element;
 
-	if (lst == NULL || del == NULL)
+	if (!lst || !del)
 		return ;
-	current = *lst;
-	while (current != NULL)
+	while (*lst)
 	{
-		next = current->next;
-		del(current->content);
-		free(current);
-		current = next;
+		tmp_element = (*lst)->next;
+		ft_lstdelone(*lst, del);
+		*lst = tmp_element;
 	}
 	*lst = NULL;
 }
