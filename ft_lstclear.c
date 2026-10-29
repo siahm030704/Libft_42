@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_lstclear.c                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/27 15:24:49 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 16:05:19 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_lstclear.c                                     :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/27 15:24:49 by username         #+#    #+#              */
+/*   Updated: 2026/10/29 09:42:18 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,26 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	}
 	*lst = NULL;
 }
+
+// static void	del_content(void *content)
+// {
+// 	(void) content;
+// }
+
+// int	main(void)
+// {
+// 	t_list	*head = NULL;
+// 	t_list	*new_node1 = ft_lstnew("Node 1");
+// 	t_list	*new_node2 = ft_lstnew("Node 2");
+// 	t_list	*new_node3 = ft_lstnew("Node 3");
+
+// 	ft_lstadd_back(&head, new_node1);
+// 	ft_lstadd_back(&head, new_node2);
+// 	ft_lstadd_back(&head, new_node3);
+// 	ft_lstclear(&head, del_content);
+// 	if (head == NULL)
+// 		printf("The list has been cleared.\n");
+// 	else
+// 		printf("The list is not empty.\n");
+// 	return (0);
+// }
