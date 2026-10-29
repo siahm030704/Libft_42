@@ -34,7 +34,7 @@ int	main(void)
 
 	str = "Hello, world!";
 	dup = ft_strdup(str);
-	
+
 	printf("Original: %s\n", str);
 	printf("Duplicate: %s\n", dup);
 	free(dup);

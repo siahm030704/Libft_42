@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 15:24:49 by username          #+#    #+#             */
-/*   Updated: 2026/10/29 14:40:54 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 16:14:24 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,15 +29,15 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 
 // static void	del_content(void *content)
 // {
-// 	(void) content;
+// 	free(content);;
 // }
 
 // int	main(void)
 // {
 // 	t_list	*head = NULL;
-// 	t_list	*new_node1 = ft_lstnew("Node 1");
-// 	t_list	*new_node2 = ft_lstnew("Node 2");
-// 	t_list	*new_node3 = ft_lstnew("Node 3");
+// 	t_list	*new_node1 = ft_lstnew(ft_strdup("Node 1"));
+// 	t_list	*new_node2 = ft_lstnew(ft_strdup("Node 2"));
+// 	t_list	*new_node3 = ft_lstnew(ft_strdup("Node 3"));
 
 // 	ft_lstadd_back(&head, new_node1);
 // 	ft_lstadd_back(&head, new_node2);

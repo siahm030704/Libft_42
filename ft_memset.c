@@ -18,10 +18,10 @@ void	*ft_memset(void *ptr, int value, size_t num)
 	size_t			i;
 
 	i = 0;
-	p = (unsigned char *) ptr;
+	p = (unsigned char *)ptr;
 	while (i < num)
 	{
-		p[i] = (unsigned char) value;
+		p[i] = (unsigned char)value;
 		i++;
 	}
 	return (ptr);

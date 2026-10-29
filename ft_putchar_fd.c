@@ -17,7 +17,7 @@ void	ft_putchar_fd(char c, int fd)
 	write(fd, &c, 1);
 }
 /*
-int main(void)
+int	main(void)
 {
 	char	c = 'S';
 	int		fd = 1; // Standard output (stdout)

@@ -22,7 +22,7 @@ size_t	ft_strlen(const char *s)
 	return (len);
 }
 /*
-int main(void)
+int	main(void)
 {
 	const char	*str = "Hello, world!";
 	size_t		length;

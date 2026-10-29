@@ -36,10 +36,10 @@ i++;
 }
 return (s);
 }
-int main(void)
+int	main(void)
 {
-char str[] = "Hello, World!";
+char	str[] = "Hello, World!";
 ft_striteri(str, upper);
-printf("%s\n", str);						
+printf("%s\n", str);
 return (0);
 }*/

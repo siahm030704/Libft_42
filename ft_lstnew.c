@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 14:57:56 by username          #+#    #+#             */
-/*   Updated: 2026/10/29 14:04:18 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 16:19:06 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ t_list	*ft_lstnew(void *content)
 {
 	t_list	*new_node;
 
-	new_node = (t_list *) malloc(sizeof(t_list));
+	new_node = (t_list *)malloc(sizeof(t_list));
 	if (!new_node)
 		return (NULL);
 	new_node->content = content;
@@ -31,5 +31,6 @@ t_list	*ft_lstnew(void *content)
 
 // 	new_node = ft_lstnew(&value);
 // 	printf("New node created with content: %d\n", *(int *) new_node->content);
+// free(new_node);
 // 	return (0);
 // }

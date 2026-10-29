@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 15:22:15 by username          #+#    #+#             */
-/*   Updated: 2026/10/29 14:43:20 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:24:13 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,13 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	if (lst == NULL || del == NULL)
+	if (!del)
 		return ;
-	del(lst->content);
-	free(lst);
-	*lst = NULL;
+	if (lst)
+	{
+		del(lst->content);
+		free(lst);
+	}
 }
 
 // static void	del_content(void *content)

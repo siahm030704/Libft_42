@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 00:17:08 by username          #+#    #+#             */
-/*   Updated: 2026/10/29 14:03:41 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 16:32:20 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	unsigned char	*n;
 	size_t			i;
 
-	if (size != 0 && nmemb > __SIZE_MAX__ / size)
+	if (size != 0 && nmemb > (size_t)-1 / size)
 		return (NULL);
 	if (nmemb == 0 || size == 0)
 	{
@@ -38,12 +38,19 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	}
 	return (n);
 }
-/*
-int	main(void)
-{
-size_t	nmemb = 5;
-size_t	size = sizeof(int);
 
-printf("%p ", ft_calloc(nmemb, size));
-return (0);
+/*int	main(void)
+{
+	size_t	nmemb = 5;
+	int		*p = ft_calloc(nmemb, sizeof(int));
+	int	i;
+
+	i = 0;
+	while (i < 5)
+	{
+		printf("%d", p[i]);
+		i++;
+	}
+	free(p);
+	return (0);
 }*/

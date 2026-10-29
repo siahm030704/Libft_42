@@ -34,9 +34,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return (result);
 }
 /*
-int main(void)
+int	main(void)
 {
-	
+
 	const char	*s1 = "Hello, ";
 	const char	*s2 = "world!";
 	char		*result;

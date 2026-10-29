@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 16:50:55 by username          #+#    #+#             */
-/*   Updated: 2026/10/28 11:58:18 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 16:12:21 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,11 +55,12 @@ char	*ft_itoa(int n)
 }
 /*int	main(void)
 {
-int	n;
+int				n;
 
 n = -12345;
-char	*result = ft_itoa(n);
+char			*result = ft_itoa(n);
 
 printf("%s\n", result);
+free(result);
 return (0);
 }*/

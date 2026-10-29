@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 18:51:13 by username          #+#    #+#             */
-/*   Updated: 2026/10/28 16:56:26 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 16:28:19 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,14 +24,14 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 			dst[i] = src[i];
 			i++;
 		}
-		dst[i] = 0;
+		dst[i] = '\0';
 	}
 	while (src[i])
 		i++;
 	return (i);
 }
 /*
-int main(void)
+int	main(void)
 {
 	char		dest[20] = "";
 	const char	*src = "Hello, world!";

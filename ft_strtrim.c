@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 16:30:56 by username          #+#    #+#             */
-/*   Updated: 2026/10/29 14:05:35 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 16:31:26 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	while (end > start && ft_strchr(set, s1[end - 1]))
 		end--;
 	len = end - start;
+	if (end < start)
+		return (ft_strdup(""));
 	trimmed_str = malloc(len + 1);
 	if (!trimmed_str)
 		return (NULL);

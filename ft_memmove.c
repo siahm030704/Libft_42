@@ -6,7 +6,7 @@
 /*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 18:48:24 by username          #+#    #+#             */
-/*   Updated: 2026/10/29 14:04:33 by ssarsour         ###   ########.fr       */
+/*   Updated: 2026/10/29 15:27:01 by ssarsour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,17 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	size_t	i;
 
+	if (!dst && !src)
+		return (dest);
 	if (len == 0 || dst == src)
 		return (dst);
-	if ((char *) dst > (char *) src)
+	if ((char *)dst > (char *)src)
 	{
 		i = len;
 		while (i > 0)
 		{
 			i--;
-			((char *) dst)[i] = ((char *) src)[i];
+			((char *)dst)[i] = ((char *)src)[i];
 		}
 	}
 	else
@@ -32,7 +34,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		i = 0;
 		while (i < len)
 		{
-			((char *) dst)[i] = ((char *) src)[i];
+			((char *)dst)[i] = ((char *)src)[i];
 			i++;
 		}
 	}

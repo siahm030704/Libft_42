@@ -21,10 +21,10 @@ void	ft_putendl_fd(char *s, int fd)
 	write(fd, "\n", 1);
 }
 /*
-int main(void)
+int	main(void)
 {
 	char	*str = "Hello, world!";
-	int		fd = 1; 
+	int		fd = 1;
 
 	ft_putendl_fd(str, fd);
 	return (0);
