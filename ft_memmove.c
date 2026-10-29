@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 18:48:24 by username          #+#    #+#             */
-/*   Updated: 2026/10/28 12:34:39 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_memmove.c                                      :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/12 18:48:24 by username         #+#    #+#              */
+/*   Updated: 2026/10/29 06:37:55 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 
 	if (len == 0 || dst == src)
 		return (dst);
-	if (dst > src)
+	if ((char *) dst > (char *) src)
 	{
 		i = len;
 		while (i > 0)
@@ -38,13 +38,13 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-/*
-int main(void)
-{
-	
-char	src[] = "Hello, world!";
-	size_t		n = 5;
-	ft_memmove(src + 7, src, n);
-	printf("%s\n", src);
-	return (0);
-}*/
+
+// int	main(void)
+// {
+// 	char	src[] = "Aello, world!";
+// 	size_t	n = 3;
+
+// 	ft_memmove(src + 7, src, n);
+// 	printf("%s\n", src);
+// 	return (0);
+// }

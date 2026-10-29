@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_lstlast.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/27 15:09:03 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 16:05:43 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_lstlast.c                                      :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/27 15:09:03 by username         #+#    #+#              */
+/*   Updated: 2026/10/29 07:14:19 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,26 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	return (lst);
 }
+
+// int	main(void)
+// {
+// 	t_list	*head = NULL;
+// 	t_list	*new_node1 = ft_lstnew("Node 1");
+// 	t_list	*new_node2 = ft_lstnew("Node 2");
+// 	t_list	*new_node3 = ft_lstnew("Node 3");
+
+// 	ft_lstadd_front(&head, new_node1);
+// 	ft_lstadd_front(&head, new_node2);
+// 	ft_lstadd_front(&head, new_node3);
+// 	t_list	*last_node = ft_lstlast(head);
+
+// 	if (last_node != NULL)
+// 		printf("Last node content: %s\n", (char *) last_node->content);
+// 	else
+// 		printf("The list is empty.\n");
+// 	// Free the allocated memory
+// 	free(new_node1);
+// 	free(new_node2);
+// 	free(new_node3);
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/18 17:03:24 by username         #+#    #+#              */
-/*   Updated: 2026/10/28 22:19:09 by username        ###   ########.fr        */
+/*   Updated: 2026/10/29 06:39:48 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,18 +32,18 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	return (str);
 }
 
-char	upper(unsigned int i, char c)
-{
-	(void) i;
-	if (c >= 'a' && c <= 'z')
-		c -= 32;
-	return (c);
-}
+// char	upper(unsigned int i, char c)
+// {
+// 	(void) i;
+// 	if (c >= 'a' && c <= 'z')
+// 		c -= 32;
+// 	return (c);
+// }
 
-int	main(void)
-{
-	const char	*s = "Hello, World!";
+// int	main(void)
+// {
+// 	const char	*s = "Hello, World!";
 
-	printf("Result: %s\n", ft_strmapi(s, upper));
-	return (0);
-}
+// 	printf("Result: %s\n", ft_strmapi(s, upper));
+// 	return (0);
+// }

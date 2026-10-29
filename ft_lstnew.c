@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_lstnew.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ssarsour <ssarsour@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/27 14:57:56 by username          #+#    #+#             */
-/*   Updated: 2026/10/27 16:05:47 by ssarsour         ###   ########.fr       */
+/*                                                       :::      ::::::::    */
+/*   ft_lstnew.c                                       :+:      :+:    :+:    */
+/*                                                   +:+ +:+         +:+      */
+/*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
+/*                                               +#+#+#+#+#+   +#+            */
+/*   Created: 2026/10/27 14:57:56 by username         #+#    #+#              */
+/*   Updated: 2026/10/29 06:53:01 by username        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,13 @@ t_list	*ft_lstnew(void *content)
 	new_node->next = NULL;
 	return (new_node);
 }
+
+// int	main(void)
+// {
+// 	t_list	*new_node;
+// 	int		value = 42;
+
+// 	new_node = ft_lstnew(&value);
+// 	printf("New node created with content: %d\n", *(int *) new_node->content);
+// 	return (0);
+// }
